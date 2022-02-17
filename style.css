@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+
+#score{
+    font-size: x-large;
+    margin-right: 1250px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  yellow;
+}
+
+#timer{
+    font-size: x-large;
+    margin-left: 1250px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  yellow;
+}
+
+#sketch{
+    color: yellow;
+    font-size: xx-large;
+    
+}
