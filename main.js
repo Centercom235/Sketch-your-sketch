@@ -43,7 +43,7 @@ if(timer_check=="completed" || answer_holder=="set"){
 
 function updateCanvas(){
     background("white");
-random_number=Math.floor((Math.random()*quick_draw_data_set)+1);
+random_number=Math.floor((Math.random()*quick_draw_data_set.length)+1);
 console.log(quick_draw_data_set[random_number]);
 sketch=quick_draw_data_set[random_number];
 document.getElementById("sketch").innerHTML="sketch to be drawn: "+sketch;
